@@ -108,3 +108,6 @@ dist
 uploads
 yarn.lock
 package.lock
+
+# Env
+.env

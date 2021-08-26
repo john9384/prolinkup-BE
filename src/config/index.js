@@ -1,5 +1,5 @@
 const dotenv = require("dotenv");
-const envFound = dotenv.config({ path: "variables.env" });
+const envFound = dotenv.config({ path: ".env" });
 
 if (process.env.NODE_ENV) {
   module.exports = require("./config_prod");
