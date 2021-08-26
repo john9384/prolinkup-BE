@@ -48,5 +48,8 @@
     "unirest": "^0.6.0",
     "validator": "^12.2.0",
     "winston": "^3.0.0-rc1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

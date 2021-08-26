@@ -80,7 +80,7 @@ exports.authenticate = async (email, password) => {
   let token = jwtHelpers.encode(payload, config.jwtSecret, {
     expiresIn: "24h",
   });
-  logger.info(`Auth token created: ${token}`);
+  logger.info(`Auth token created`);
 
   return { token: `${config.tokenType} ${token}` };
 };
